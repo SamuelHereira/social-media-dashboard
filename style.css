@@ -256,9 +256,11 @@ body {
 
 
 .overview-today-cards-container .card .day-followers{
-    justify-content: end;
+    width: 50px;
+    margin-top: 25px;
+    justify-self: flex-end;
     align-items: center;
-    align-self: flex-end;
+    justify-content: right;
 }
 
 
