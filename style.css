@@ -236,7 +236,7 @@ body {
 
 .overview-today-cards-container .card p{
     margin: 0;
-    font-size: 0.8em;
+    font-size: .8em;
     font-weight: 700;
 }
 
@@ -256,8 +256,10 @@ body {
 
 
 .overview-today-cards-container .card .day-followers{
+    font-size: .85em;
     width: 50px;
-    margin-top: 25px;
+
+    align-self: flex-end;
     justify-self: flex-end;
     align-items: center;
     justify-content: flex-end;
