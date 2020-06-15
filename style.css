@@ -260,7 +260,7 @@ body {
     margin-top: 25px;
     justify-self: flex-end;
     align-items: center;
-    justify-content: right;
+    justify-content: flex-end;
 }
 
 
