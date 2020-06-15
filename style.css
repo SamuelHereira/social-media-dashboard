@@ -52,7 +52,7 @@ body {
 }
 
 .container {
-    width: 85%;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -224,7 +224,7 @@ body {
 
 
 .overview-today-cards-container .card {
-    width: 200px;
+    /* width: 200px; */
     height: 120px;
     display:grid;
     grid-template-columns: 2fr 1fr;
@@ -309,20 +309,33 @@ body.dark-mode {
 /* RESPONSIVE */
 
 @media screen and (max-width: 940px) {
+
+    .container {
+        width: 650px;
+    }
+
     .grid {
         grid-template-columns: repeat(3, 200px);
     }
 }
 
 @media screen and (max-width: 700px) {
+    .container {
+        width: 450px;
+    }
     .grid {
         grid-template-columns: repeat(2, 200px);
     }
 }
 
 @media screen and (max-width: 450px) {
+
+    .container {
+        width: 80%;
+    }
+
     .grid {
-        grid-template-columns: 200px;
+        grid-template-columns: 1fr;
         justify-content: center;
     }
 
@@ -341,6 +354,10 @@ body.dark-mode {
         padding-top: 20px;
         justify-content: space-between;
     } 
+
+    .card {
+        width: 100%;
+    }
 
     .social-net-cards-container {
         margin-top: -30px;
